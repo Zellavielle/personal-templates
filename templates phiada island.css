@@ -1,0 +1,48 @@
+/* snake eyes */
+.silver-tmplt-footer.barras { border-top: 1px solid #5c5f68; text-align: right; padding-right: 100px; padding-left: 0; }
+.silver-tmplt-footer.barras i { right: 59px; }
+silvdata a:hover { background: var(--eviecolor); color: #343333!important; }
+silvdata a { color: #ffffff!important; background: #6b6b6d; padding: 0 5px; font-weight: 800!important; transition: all linear .5s; }
+silvdata:after { content: ']'; font-weight: 800; color: var(--eviecolor); margin-right: 10px; margin-left: 5px; } 
+silvdata:before { content: '['; font-weight: 800; color: var(--eviecolor); margin-right: 6px; }
+.silver-tmplt-footer span { font-weight: 800; text-transform: uppercase; letter-spacing: 2px; font-size: 11px; color: var(--eviecolor); }
+.silver-tmplt-footer { position: relative;background: #494a4d; color: #e4e4e4; font-family: montserrat; padding: 30px; margin: auto; margin-top: -20px; width: 700px; overflow: hidden; padding-left: 100px; box-sizing: border-box; }
+img.silver-tmpl-icon { position: absolute; right: 90px; top: 50px; border: 10px solid #fbfbfb; outline: 1px solid #dbdbdb; width: 110px; }
+.silver-tmpl { --eviecolor: #b397d8; width: 700px; margin: auto; background: white; font-family: georgia; text-align: justify; line-height: 180%; font-size: 15px; padding: 30px 90px; color: #272727; border: 1px solid #dfdfdf; box-sizing: border-box; position: relative; padding-top: 200px; }
+silvereextra { display: block; text-transform: uppercase; font-weight: 500; font-size: 9px; color: white; letter-spacing: 1px; }
+.silver-tmpl-title { font-family: 'Montserrat'; font-weight: 800; font-size: 80px; text-align: right; text-transform: uppercase; line-height: 75%; letter-spacing: -6px; }
+.silver-tmpl-title b { font-size: 12px; margin-top: 8px; background: var(--eviecolor); display: inline-block; color: var(--white); padding: 9px 10px; letter-spacing: 0; line-height: 100%; }
+.silver-tmpl-content strong { font-family: 'Montserrat'; font-weight: 600; color: #a085c5; font-size: 13px; }
+.silver-tmplt-footer i { font-size: 75px; position: absolute; z-index: 0; margin-top: -21px; color: rgb(from var(--eviecolor) r g b / 25%); left: 62px; }
+.silver-tmplt-footer  {--eviecolor: #b397d8;}
+
+/* baúl */
+.hvnbaul-body {
+    background-color:var(--hvn-accent1);
+    min-height: 200px;
+    width: 700px;
+    margin: auto;
+
+--hvn-accent1: #383c69;
+--hvn-accent2: #98b0f2;
+--hvn-accent3: #3c3e56;
+--hvn-bg: #2e2e2e;
+--hvn-text1: #f2f2f2;
+}
+.hvnbaul-links a { font-family: 'Montserrat'; color: var(--hvn-text1); letter-spacing: 1px; font-size: 9px; text-transform: uppercase; font-weight: 600; }
+.hvnbaul-titulo { height: 200px; background-color: var(--hvn-accent1); display: flex; flex-direction: column; align-items: center; justify-content: center; color: var(--hvn-text1); background-image: url(https://i.imgur.com/F2a9I9m.jpeg); background-blend-mode: overlay; background-size: cover; font-family: revine; text-transform: uppercase; font-size: 36px; letter-spacing: 10px; }
+
+.hvnbaul-titulo b { font-family: montserrat; font-weight: 400; font-size: 11px; letter-spacing: 7px; }
+.hvnbaul-section-2 { color: var(--hvn-text1); display: flex; padding: 50px 50px; background-color: var(--hvn-accent3); }
+.hvnbaul-section-2a { column-count: 2; -webkit-column-count: 2; -moz-column-count: 2; column-gap: 33px; -webkit-column-gap: 33px; -moz-column-gap: 15px; font-family: cambria; font-size: 12px; width: 420px; }
+.hvnbaul-section-2b span { display: block; } 
+.hvnbaul-section-2b { margin-left: 31px; }
+.hvnbaul-section-2b span { display: block; font-family: 'Montserrat'; margin-bottom: 4px; margin-left: 20px; }
+.hvnbaul-section-2b span:before { font-family: "Font Awesome 6 Pro"; content: "\f219"; font-weight: 900; font-size: 8px; display: inline; position: relative; top: -2px; margin-right: 10px; color: var(--hvn-accent2); }
+
+.hvnbaul-links { padding: 13px 20px; background: var(--hvn-bg); }
+.hvnbaul-links a strong { font-family: montserrat; font-weight: 600; font-style: normal; color: var(--hvn-accent2); font-size: 10px; position: relative; top: -1px; }
+
+.hvnbaul-imagen { background-color: grey; height: 350px; }
+
+@font-face { font-family: "Revine"; src: url( https://dl.dropbox.com/scl/fi/eagcyfvum56q7vjw9aetm/Revine-Regular.otf?rlkey=hqm9dyddc3vkhsjrvic0m06d2&dl=0); font-weight: 300; font-style: normal; }
